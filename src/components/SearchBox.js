@@ -12,6 +12,5 @@ export default function SearchBox(props) {
             onChange={(event) => {props.setSearchValue(event.target.value)}}  
         />
       </div>
-    
   )
 }
